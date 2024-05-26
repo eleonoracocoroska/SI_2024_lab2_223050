@@ -12,6 +12,7 @@
 
 4.Every Branch тест случаеви
 Во првиот тест all items ќе биде null па ќе се фрли исклучок
+
 Во вториот тест name=null и barcode=null тоагаш name=unknown а за barcode ќе се фрли исклучок
 Во третиот тест name=item и barcode=012a тогаш name=item а за barcode ќе се фрли исклучок дека има невалиден карактер
 Во четвриот случај name=item и barcode=0123 discount=0.5 и price=350 , payment=200 тогаш name=unknown а за barcode=0123 сумата ќе е 350*0.5=175 па ќе се намали за 30 и ќе биде 145 и е помал од payment па ќе врати true
